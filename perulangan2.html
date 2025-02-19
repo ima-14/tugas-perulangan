@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+        
+        for(let i = 10; i >= 0; i--){
+            document.write(`<p> ${i} </p>`);
+        }
+
+        let i = 10;
+
+        while (i >= 1) {
+            document.write(i + "<br>");
+            i--;
+            }
+
+        let star="";
+        for (let i=9; i>=1; i--){
+            for (let j=0; j<i; j++){
+                star += i;
+            }
+            star += "<br>";
+        }
+        document.write(star);
+
+        let hi="";
+        for (let i=9; i>=1; i--){
+            for (let j=0; j<i; j++){
+                hi += "*";
+            }
+            hi += "<br>";
+        }
+        document.write(hi);
+        
+        let ha = "";
+        for (let i = 9; i >= 0; i--) {
+            for (let j = 0; j < i; j++) {
+                ha += j + 0;
+            }
+            ha += "<br>";
+        }
+        document.write(ha);
+
+    </script>
+</body>
+</html>
